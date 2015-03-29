@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+ <object name="pfgmapfield" meta_type="Filesystem Directory View"
+    directory="redturtle.pfgmapfield:skins/pfgmapfield"/>
+ <skin-path name="*">
+  <layer name="pfgmapfield" insert-after="PloneFormGen" />
+ </skin-path>
+</object>
