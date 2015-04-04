@@ -10,6 +10,8 @@ MessageFactory = MessageFactory('redturtle.pfgmapfield')
 
 
 def initialize(context):
+    import widget
+
     content_types, constructors, ftis = atapi.process_types(
         atapi.listTypes(config.PROJECTNAME),
         config.PROJECTNAME)

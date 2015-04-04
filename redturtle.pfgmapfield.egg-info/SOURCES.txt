@@ -14,5 +14,6 @@ redturtle.pfgmapfield.egg-info/top_level.txt
 redturtle/pfgmapfield/__init__.py
 redturtle/pfgmapfield/config.py
 redturtle/pfgmapfield/tests.py
+redturtle/pfgmapfield/widget.py
 redturtle/pfgmapfield/content/__init__.py
 redturtle/pfgmapfield/content/field.py
